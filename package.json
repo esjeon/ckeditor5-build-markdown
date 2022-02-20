@@ -1,7 +1,7 @@
 {
-  "name": "@esjeon/ckeditor5-build-balloon-block-markdown",
-  "version": "32.0.0",
-  "description": "The balloon editor build of CKEditor 5 with a block toolbar – the best browser-based rich text editor.",
+  "name": "@esjeon/ckeditor5-build-markdown",
+  "version": "1.0.0",
+  "description": "A Markdown editor build of CKEditor 5",
   "keywords": [
     "wysiwyg",
     "rich text",
@@ -18,7 +18,8 @@
     "ckeditor5-build",
     "ckeditor",
     "ckeditor5",
-    "ckeditor 5"
+    "ckeditor 5",
+    "markdown"
   ],
   "main": "./build/ckeditor.js",
   "files": [
@@ -26,15 +27,11 @@
     "ckeditor5-metadata.json"
   ],
   "dependencies": {
-    "@ckeditor/ckeditor5-adapter-ckfinder": "^32.0.0",
     "@ckeditor/ckeditor5-autoformat": "^32.0.0",
     "@ckeditor/ckeditor5-autosave": "^32.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^32.0.0",
     "@ckeditor/ckeditor5-block-quote": "^32.0.0",
-    "@ckeditor/ckeditor5-ckfinder": "^32.0.0",
-    "@ckeditor/ckeditor5-cloud-services": "^32.0.0",
     "@ckeditor/ckeditor5-code-block": "^32.0.0",
-    "@ckeditor/ckeditor5-easy-image": "^32.0.0",
     "@ckeditor/ckeditor5-editor-balloon": "^32.0.0",
     "@ckeditor/ckeditor5-essentials": "^32.0.0",
     "@ckeditor/ckeditor5-heading": "^32.0.0",
@@ -71,14 +68,12 @@
     "node": ">=14.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "Eon s. Jeon <esjoen@hyunmu.am>",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "homepage": "https://github.com/esjeon/ckeditor5-build-markdown",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git",
-    "directory": "packages/ckeditor5-build-balloon-block"
+    "url": "https://github.com/esjeon/ckeditor5-build-markdown.git"
   },
   "scripts": {
     "build": "webpack --mode production",

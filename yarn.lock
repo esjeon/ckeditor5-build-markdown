@@ -23,13 +23,6 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@ckeditor/ckeditor5-adapter-ckfinder@^32.0.0":
-  version "32.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-adapter-ckfinder/-/ckeditor5-adapter-ckfinder-32.0.0.tgz#6ffd009ccdba7f3fe8dbe8a7da5ffad1a2cb1847"
-  integrity sha512-DCK4CPW4M4pEJW/zC6yo8zGGGDXfjsEQRGkTiF4QjHODh3QYBc6O0Oy4mzCuEIobkyMfcUAqEh3UQQVgEM8B+Q==
-  dependencies:
-    ckeditor5 "^32.0.0"
-
 "@ckeditor/ckeditor5-autoformat@^32.0.0":
   version "32.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-autoformat/-/ckeditor5-autoformat-32.0.0.tgz#8e6cce09d4b7a0ce84a54a00643de8519e90f725"
@@ -59,13 +52,6 @@
   dependencies:
     ckeditor5 "^32.0.0"
 
-"@ckeditor/ckeditor5-ckfinder@^32.0.0":
-  version "32.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ckfinder/-/ckeditor5-ckfinder-32.0.0.tgz#f949fd4113d0268bf97a973a551135397b966921"
-  integrity sha512-1XOr+S26Gt2CNZxnIzxURwCpZXGnNW56ZTPqHa2NHLgemm+KYs3+iR8/AQj9HCW5za+ZFmj0I5Ztqq9Pssya1w==
-  dependencies:
-    ckeditor5 "^32.0.0"
-
 "@ckeditor/ckeditor5-clipboard@^32.0.0":
   version "32.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-clipboard/-/ckeditor5-clipboard-32.0.0.tgz#ad045b8ee251596b9cd6775abffc67f375d9e4a1"
@@ -76,13 +62,6 @@
     "@ckeditor/ckeditor5-utils" "^32.0.0"
     "@ckeditor/ckeditor5-widget" "^32.0.0"
     lodash-es "^4.17.11"
-
-"@ckeditor/ckeditor5-cloud-services@^32.0.0":
-  version "32.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-cloud-services/-/ckeditor5-cloud-services-32.0.0.tgz#e3c45d5d47ab0cca7da5c6513464665d6f78a240"
-  integrity sha512-hpbZP4Ue9glkK35+6/Tv+Zw6S/gWA7qNhuUWFEQ22kClKpiEH+2SOnQrTWBRrHVMLRm3GXIfq9sIvv3Ndi0a2w==
-  dependencies:
-    ckeditor5 "^32.0.0"
 
 "@ckeditor/ckeditor5-code-block@^32.0.0":
   version "32.0.0"
@@ -140,13 +119,6 @@
     rimraf "^3.0.2"
     semver "^7.3.4"
     webpack-sources "^2.0.1"
-
-"@ckeditor/ckeditor5-easy-image@^32.0.0":
-  version "32.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-easy-image/-/ckeditor5-easy-image-32.0.0.tgz#d2641275f694781fc70ea7529c09fa7c5eb114ac"
-  integrity sha512-PLt4xRGs9eTl0zaDHqBiw1m5EngOFDFMdsCb3au7XBDDZ7Q7UhXIbGvA6waAUHniJaZLCVppU7J+knTlmsZfRQ==
-  dependencies:
-    ckeditor5 "^32.0.0"
 
 "@ckeditor/ckeditor5-editor-balloon@^32.0.0":
   version "32.0.0"

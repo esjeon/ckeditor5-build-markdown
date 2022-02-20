@@ -1,29 +1,18 @@
-CKEditor 5 balloon block editor build
-==============================================
+CKEditor 5 Markdown editor
+==========================
 
-[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-balloon-block.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-balloon-block)
-[![Coverage Status](https://coveralls.io/repos/github/ckeditor/ckeditor5/badge.svg?branch=master)](https://coveralls.io/github/ckeditor/ckeditor5?branch=master)
-[![Build Status](https://travis-ci.com/ckeditor/ckeditor5.svg?branch=master)](https://travis-ci.com/ckeditor/ckeditor5)
-
-The build of CKEditor 5 featuring the balloon and block toolbars. Read more about the [balloon block editor build](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#balloon-block-editor) and see the [demo](https://ckeditor.com/docs/ckeditor5/latest/examples/builds/balloon-block-editor.html).
-
-![CKEditor 5 balloon block editor build screenshot](https://c.cksource.com/a/1/img/npm/ckeditor5-build-balloon-block.png)
+This is a custom build of CKEditor for markdown editing.
 
 ## Documentation
 
-See:
-
-* [Installation](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/installation.html) for how to install this package and what it contains.
-* [Basic API](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/basic-api.html) for how to create an editor and interact with it.
-* [Configuration](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/configuration.html) for how to configure the editor.
-* [Creating custom builds](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/development/custom-builds.html) for how to customize the build (configure and rebuild the editor bundle).
+See CKEditor 5 documentation.
 
 ## Quick start
 
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-balloon-block
+npm install --save @esjeon/ckeditor5-build-markdown
 ```
 
 And use it in your website:
@@ -32,9 +21,9 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-balloon-block/build/ckeditor.js"></script>
+<script src="./node_modules/@esjeon/ckeditor5-markdown/build/ckeditor.js"></script>
 <script>
-	BalloonEditor
+	MarkdownEditor
 		.create( document.querySelector( '#editor' ) )
 		.then( editor => {
 			window.editor = editor;
@@ -48,10 +37,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import BalloonEditor from '@ckeditor/ckeditor5-build-balloon-block';
+import BalloonEditor from '@esjeon/ckeditor5-build-markdown';
 
 // Or using the CommonJS version:
-// const BalloonEditor = require( '@ckeditor/ckeditor5-build-balloon-block' );
+// const BalloonEditor = require( '@esjeon/ckeditor5-build-markdown' );
 
 BalloonEditor
 	.create( document.querySelector( '#editor' ) )
@@ -62,10 +51,6 @@ BalloonEditor
 		console.error( 'There was a problem initializing the editor.', error );
 	} );
 ```
-
-**Note:** If you are planning to integrate CKEditor 5 deep into your application, it is actually more convenient and recommended to install and import the source modules directly (like it happens in `ckeditor.js`). Read more in the [Advanced setup guide](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/advanced-setup.html).
-
-**Note:** You can configure the block toolbar items using the [`config.blockToolbar`](https://ckeditor.com/docs/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html#member-blockToolbar) option.
 
 ## License
 
